@@ -121,7 +121,7 @@ export const translations = {
 
     // Home
     bookNow: "JETZT BUCHEN",
-    premiumGrooming: "Premium Haarschnitt-Erlebnis",
+    premiumGrooming: "Premium Haarschnitts-Erlebnis",
 
     // SelectionPage
     yourExperience: "IHR ERLEBNIS",
