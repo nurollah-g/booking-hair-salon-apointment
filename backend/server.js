@@ -18,9 +18,10 @@ app.use(helmet());
 app.disable("x-powered-by");
 
 // CORS
-const allowedOrigins = (
-  process.env.ALLOWED_ORIGINS || "http://localhost:3000"
-).split(",");
+const allowedOrigins = [
+  "http://localhost:3000",
+  "https://booking-hair-salon-apointment.vercel.app",
+];
 
 app.use(
   cors({
