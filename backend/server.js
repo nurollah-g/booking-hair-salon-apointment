@@ -21,6 +21,7 @@ app.disable("x-powered-by");
 const allowedOrigins = (
   process.env.ALLOWED_ORIGINS || "http://localhost:3000"
 ).split(",");
+
 app.use(
   cors({
     origin: (origin, callback) => {
@@ -30,11 +31,12 @@ app.use(
     credentials: true,
   }),
 );
+app.options("*", cors());
 
 // Body size limit
 app.use(express.json({ limit: "10kb" }));
 
-// Rate limiting - max 30 requests per 15 min per IP
+// Rate limiting
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000,
   max: 30,
@@ -42,7 +44,7 @@ const limiter = rateLimit({
   standardHeaders: true,
   legacyHeaders: false,
 });
-//app.use("/api/", limiter);
+// app.use("/api/", limiter);
 
 // Stricter limit for OTP endpoints
 const otpLimiter = rateLimit({
