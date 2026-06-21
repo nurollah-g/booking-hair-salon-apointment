@@ -11,7 +11,7 @@ A full-stack web application for booking barbershop appointments, built with Rea
 - **OTP Verification** — Phone number verified via SMS before booking is confirmed
 - **Booking Dashboard** — Unique secure link sent via SMS to view or cancel booking
 - **SMS Notifications** — Confirmation and cancellation messages sent to both customer and barber
-- **Bilingual** — Full English and German language support
+- **Bilingual** — Full English and Persian language support
 - **Responsive** — Optimized for mobile, tablet, and desktop
 
 ---
