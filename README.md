@@ -6,11 +6,13 @@ A full-stack web application for booking barbershop appointments, built with Rea
 
 ## 📸 preview
 
-![Image](https://github.com/user-attachments/assets/3875f6e7-fcdc-43d0-b9bd-293e3cf00ff1)
+![Image](https://github.com/user-attachments/assets/adef1a23-5623-4368-8c78-0cc529f6e3dc)
 
-![Image](https://github.com/user-attachments/assets/86ae8543-d4bb-4d05-8917-158b718c6986)
 
-![Image](https://github.com/user-attachments/assets/d6bd537c-8a10-4336-919b-fd0099260ff3)
+![Image](https://github.com/user-attachments/assets/21749c46-e6a6-48f9-9727-01d80dd44a40)
+
+
+![Image](https://github.com/user-attachments/assets/ba78a1b5-1c78-4b32-9c17-a0ef3f36c6bf)
 
 ---
 
