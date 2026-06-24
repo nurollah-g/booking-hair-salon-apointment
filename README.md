@@ -4,6 +4,24 @@ A full-stack web application for booking barbershop appointments, built with Rea
 
 ---
 
+## 📸 preview
+
+
+
+![Image](https://github.com/user-attachments/assets/d6bd537c-8a10-4336-919b-fd0099260ff3)
+
+
+
+
+![Image](https://github.com/user-attachments/assets/86ae8543-d4bb-4d05-8917-158b718c6986)
+
+
+
+
+![Image](https://github.com/user-attachments/assets/3875f6e7-fcdc-43d0-b9bd-293e3cf00ff1)
+
+---
+
 ## Features
 
 - **Barber Selection** — Choose from available barbers with their specialties
